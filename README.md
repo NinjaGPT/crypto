@@ -1,4 +1,4 @@
-# cryptosecurity
+# crypto security
 
 ### Web3 Security Statistic
 * https://defillama.com/hacks
