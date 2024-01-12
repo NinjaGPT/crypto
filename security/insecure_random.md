@@ -1,4 +1,4 @@
-### 随机数攻击
+## 随机数攻击
 
 * https://www.bilibili.com/video/BV1Dd4y1d7Ht/
 * 预测伪随机数，达到攻击目的，例如一个奇数中奖游戏：
