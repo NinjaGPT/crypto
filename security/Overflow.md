@@ -42,3 +42,8 @@ _value:      5789604461865809771178549250434395392663499233282028201972879200395
 //so attacker set 2 receiver address and set _value == 2**255
 // the amount's final value will be 2**255*2, (2**256) 
 ```
+How to fix?
+```
+solidity version <= 0.8.0, openZeppelin SafeMath
+solidity version >0.8.0, solidity's SafeMath
+```
