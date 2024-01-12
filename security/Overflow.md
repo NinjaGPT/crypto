@@ -1,5 +1,6 @@
 ## 整数溢出漏洞
 * https://www.bilibili.com/video/BV1VV4y1p76M/
+* https://github.com/solidity-korea/solidity-A-to-Z/blob/master/contracts/BEC-overflow.sol
 ```
 contract BECOverflow{
     //合约内部账本，记录每个账户的余额
@@ -33,7 +34,8 @@ How to Attack?
 _receivers:  ["attackers_address","attackers_address"]
 _value:      57896044618658097711785492504343953926634992332820282019728792003956564819968
 
-// due to uint256's max value is 2**256 (when >=2**256 will overflow),
+// due to uint256's max value is 2**256 (when >=2**256 will be overflowed),
 //and in this contract will multiply _receivers.length,
 //so attacker set 2 receiver address and set _value == 2**255
+// the amount's final value will be 2**255*2, (2**256) 
 ```
