@@ -26,6 +26,9 @@ contract BECOverflow{
     }
     return true;
   }
+    constructor() payable{}
+
+  	receive() external payable{}
 
 }
 ```
