@@ -23,3 +23,23 @@
 * https://github.com/HalbornSecurity/PublicReports
 * https://de.fi/audit-database
 * https://github.com/slowmist/Knowledge-Base
+
+### Videos
+#### Solidity Programming
+* https://www.bilibili.com/video/BV1c14y1R7L3/
+#### Solidity Programming
+* https://www.bilibili.com/video/BV1HR4y197Ag/
+#### DeFiHackLabs courses
+* https://www.bilibili.com/video/BV1Fc41117jd/
+#### Youtube ThunderLoan
+* https://www.bilibili.com/video/BV1R94y1E7MK/
+#### MEV Introduction
+* https://www.bilibili.com/video/BV1wM411u7FR/
+#### Rug Pull Contract
+* https://www.bilibili.com/video/BV1mu411V7zx/
+#### Smart Contract Security
+* https://www.bilibili.com/video/BV1ga411R7AK/
+#### BlockSec Courses
+* https://www.bilibili.com/video/BV14u4y1H7ik/
+
+  
