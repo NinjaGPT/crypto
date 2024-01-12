@@ -8,7 +8,7 @@ contract Random{
   function guess() public payable{
     bool result = _getRandom(); //获取随机数
     if(result){					//中奖转账
-      bool ok = payable(msg.sender).send(1,ether);
+      bool ok = payable(msg.sender).send(1 ether);
       if(!ok){
       }
     }
