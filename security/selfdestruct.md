@@ -1,4 +1,4 @@
-### 自毁函数攻击
+## 自毁函数攻击
 
 * https://www.bilibili.com/video/BV19B4y1G7xW/
 ```go
