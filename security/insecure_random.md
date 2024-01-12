@@ -1,8 +1,8 @@
 ### 随机数攻击
 
-> https://www.bilibili.com/video/BV1Dd4y1d7Ht/
-> 预测伪随机数，达到攻击目的，例如一个奇数中奖游戏：
-```
+* https://www.bilibili.com/video/BV1Dd4y1d7Ht/
+* 预测伪随机数，达到攻击目的，例如一个奇数中奖游戏：
+```solidity
 contract Random{
 	//生成随机数确定是否中奖，如中奖则转账给中奖者
   function guess() public payable{
@@ -38,7 +38,7 @@ contract Random{
 
 
 * 攻击合约伪代码如下：
-```
+```solidity
 contract Attack{
 	function attack() external payable{
 		result = calcRandom();
@@ -49,7 +49,7 @@ contract Attack{
 }
 ```
 * 由于攻击合约和漏洞合约会在同一个block中运行，那么区块难度和时间戳是相同的，其作为随机数可被“预测”
-```
+```solidity
 contract Attack{
 	event Log(string);
 	function attack(address _random) external payable{
