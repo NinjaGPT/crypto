@@ -1,6 +1,7 @@
 ## 自毁函数攻击
 
 * https://www.bilibili.com/video/BV19B4y1G7xW/
+* http://www.codebaoku.com/smartcontract/smartcontract-selfdestruct.html
 ```go
 selfdestruct合约在自毁后会执行：
 1.余额转给指定地址
