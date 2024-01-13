@@ -34,6 +34,10 @@ contract LockCoin is ERC20 {
 * How to bypass?
 
 ```
-step 1: the owner of this contract to call 'approve' to authorize another user such as X
-step 2: user X calls 'transferFrom' to withdraw locked tokens.
+步骤如下： 
+
+第一步：合约创建者调用 approve 方法授权给另一个自己控制的账户。  
+第二步，使用自己控制的这个账户，调用 transferFrom 方法，将锁定的代币转走。  
+
+这个合约预留的后门，就是 lock 修饰器只锁定了转账函数 transfer，而没有锁定另一个转账函数 transferFrom
 ```
