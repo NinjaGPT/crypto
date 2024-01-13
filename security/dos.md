@@ -1,5 +1,6 @@
 ## Dos Vulnerability
-
+* https://www.bilibili.com/video/BV1w84y167td/?
+  
 * Bid Contract
 ```solidity
 contract Auction{
