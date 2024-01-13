@@ -1,6 +1,7 @@
 ## 随机数攻击
 
 * https://www.bilibili.com/video/BV1Dd4y1d7Ht/
+* http://www.codebaoku.com/smartcontract/smartcontract-random.html
 * 预测伪随机数，达到攻击目的，例如一个奇数中奖游戏：
 ```solidity
 contract Random{
