@@ -26,7 +26,7 @@
 ----
 
 #### 欺诈合约常用模版：
-https://github.com/binschoolapp/rug-pull-contract/tree/main/99-Template 
+https://github.com/binschoolapp/rug-pull-contract/
 ----
 
 ## ERC20合约模版
