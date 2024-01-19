@@ -1,4 +1,5 @@
 ## 发token合约，锁定期365 days
+* https://www.bilibili.com/video/BV1mu411V7zx/
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
