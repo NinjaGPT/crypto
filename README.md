@@ -6,7 +6,7 @@
 * https://defillama.com/hacks
 * https://eigenphi.io/
 
-### Web3 Sourses
+### Web3 Courses
 * https://www.wtf.academy/courses
 * https://binschool.app/
 * https://github.com/binschoolapp/web3
@@ -20,7 +20,7 @@
 * https://paper.seebug.org/category/blockchain/
 * https://github.com/slowmist
 
-### Audit Reports
+### Security Audit Reports
 * https://consensys.io/diligence/audits/
 * https://hacken.io/audits/
 * https://chainsecurity.com/smart-contract-audit-reports/
