@@ -11,6 +11,7 @@
 * https://binschool.app/
 * https://github.com/binschoolapp/web3
 * https://github.com/fltenwall/web3-awesome
+* https://github.com/inoutcode/bitcoin_book_2nd
 * https://github.com/inoutcode/ethereum_book
 * https://decert.me/tutorials
 
